@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: FullRakeTilt.com Rakeback Widget
-Plugin URI: http://www.FullRakeTilt.com/
+Plugin URI: http://www.fullraketilt.com/refer-a-friend/wordpress-rakeback-widget.html
 Description: Rakeback Widget to add to your Wordpress Blog. To earn a percentage of rakeback from users that sign up create an account at <a href="http://www.fullraketilt.com" target="_blank">www.FullRakeTilt.com</a> and enter your username in the widget settings. This widget requries the php option 'allow_url_fopen' to be set to <b>true</b> in order to work.
 Author: FullRakeTilt
 Version: 1.01
