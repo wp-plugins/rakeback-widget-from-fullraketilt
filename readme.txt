@@ -58,6 +58,9 @@ Post your problem to the plugin [Support Forum](http://wordpress.org/tags/rakeba
 
 == Changelog ==
 
+= 1.02 =
+* fixed the config screen because the currently configured show bonus option wasn't properly being displayed in the control. It worked fine in the plug in though but it was confusing.
+
 = 1.01 =
 * added minor change so that the vertical-align field is set to middle in case the template sets it otherwise
 

@@ -144,9 +144,9 @@ function fullraketilt_rakeback_control() {
     <br />
     <label for="frtrb-ShowSignupBonus">Show Signup Bonus: </label>
     <select id="frtrb-ShowSignupBonus" name="frtrb-ShowSignupBonus">
-      <option value="yes_separate_column">Yes in Separate Column</option>
-      <option value="yes_under_site_name">Yes Under Site Name</option>
-      <option value="no">No</option>
+      <option value="yes_separate_column" <?php if ($options['showSignupBonus'] == 'yes_separate_column'){ echo "SELECTED"; }?>>Yes in Separate Column</option>
+      <option value="yes_under_site_name" <?php if ($options['showSignupBonus'] == 'yes_under_site_name'){ echo "SELECTED"; }?>>Yes Under Site Name</option>
+      <option value="no" <?php if ($options['showSignupBonus'] == 'no'){ echo "SELECTED"; }?>>No</option>
     </select>
     <br />
     <label for="frtrb-BackgroundColor">Background Color (optional): </label>
