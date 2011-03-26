@@ -34,10 +34,14 @@ function fullraketilt_rakeback_widget() {
   if ($backgroundColor != "") {
     $background = 'background-color: ' . $backgroundColor . ';';
   }
+  echo "<style>";
   if ($linkColor != "") {
-    echo '<style> #frtrbTable a { color: ' . $linkColor . '; } </style>';
+    echo ' #frtrbTable a { color: ' . $linkColor . '; }';
   }
-  echo '<table id="frtrbTable" width="100%" style="text-align: left; ' . $background . '">';
+  echo ' #frtrbTable td { vertical-align: middle; padding: 4px;} ';
+  echo "</style>";
+  echo '<table id="frtrbTable" width="100%" style="text-align: left; ' . $background . '" >';
+/*
   echo "<thead><tr>";
   if ($includeImages != "none") {
     echo '<th colspan=2>';
@@ -50,6 +54,7 @@ function fullraketilt_rakeback_widget() {
   }
   echo "</tr>";
   echo "</tr></thead>\n";
+*/
   foreach ($offers as $offer) {
     $rpurl = $offer->reviewPage;
     $siteName = $offer->sitename;
@@ -70,12 +75,12 @@ function fullraketilt_rakeback_widget() {
     $rbStyle = '';
     if ($showSignupBonus == "yes_under_site_name") {
       echo '<br /><span style="font-size: .75em">' . $offer->bonus . '</span></a></td>';
-      $rbStyle = ' style="font-size: 1.3em';
+      $rbStyle = ' style="font-size: 1.3em"';
     } else if ($showSignupBonus == "yes_separate_column") {
        echo '</td><td style="text-align: center;"><span style="font-size: .75em">' . $siteAnchor . $offer->bonus . '</a></span></td>';
     }
 
-    echo '<td>' . $siteAnchor . $offer->reward . '</a></td>';
+    echo '<td ' . $rbStyle . '>' . $siteAnchor . $offer->reward . '</a></td>';
 
     echo "</tr>";
   }
