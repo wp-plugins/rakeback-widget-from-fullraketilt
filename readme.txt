@@ -1,7 +1,6 @@
 === RakeBack Widget for FullRakeTilt.com  ===
 Contributors: fullraketilt
-Donate link: http://www.fullraketilt.com
-Tags: poker, rakeback, hold'em, poker affiliate
+Tags: poker, rakeback, hold'em, poker affiliate, widget
 Requires at least: 3.0
 Tested up to: 3.1
 Stable tag: trunk
