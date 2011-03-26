@@ -67,6 +67,9 @@ Post your problem to the plugin [Support Forum](http://wordpress.org/tags/rakeba
 
 == Changelog ==
 
+= 1.01 =
+* added minor change so that the vertical-align field is set to middle in case the template sets it otherwise
+
 = 1.0 =
 * First verion
 
