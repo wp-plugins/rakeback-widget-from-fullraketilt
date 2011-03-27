@@ -27,7 +27,7 @@ To be able to earn commission you must first create an account on [FullRakeTilt.
 4. Search for *FullRakeTilt* this should return the [FullRakeTilt.com](http://www.fullraketilt.com "Rakeback from FullRakeTilt.com") Rakeback Widget
 5. Click the *Install Now* link
 6. After the plug-in was installed, click the *Activate Plugin* link to active it
-7. Go to *Appearance* -> *Widgets* and drage the FullRakeTilt Rakeback Widget to your blog's sidebar area
+7. Go to *Appearance* -> *Widgets* and drag the FullRakeTilt Rakeback Widget to your blog's sidebar area
 8. Click on the down arrow next to the widget to bring up the configuration settings and make any appropriate changes
 
 == Frequently Asked Questions ==
