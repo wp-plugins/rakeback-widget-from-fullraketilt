@@ -48,6 +48,9 @@ MGR stands for monthly gross revenue. This is the amount of rake a player has ge
 
 Post your problem to the plugin [Support Forum](http://wordpress.org/tags/rakeback-widget-from-fullraketilt?forum_id=10. "FullRakeTilt Rakeback Widget Support")
 
+= Can I use the FullRakeTilt.com Rakeback Widget along side other advertising? =
+
+We don't have any restrictions as far as other advertising you can place on the same pages as our Rakeback Widget. Other ad services might have restrictions about displaying links to poker sites. For example AdSense's restriction of "gambling and casino related" content probably means it's not good to display AdSense on the same page as the Rakeback Widget.
 
 == Screenshots ==
 
