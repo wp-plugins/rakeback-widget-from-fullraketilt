@@ -60,6 +60,9 @@ We don't have any restrictions as far as other advertising you can place on the 
 
 == Changelog ==
 
+= 1.04 =
+* fixed Max Offers so that it properly limits the number of offers to display if you select that option
+
 = 1.03 =
 * fixed an error where the title url was not properly formed
 
